@@ -1,19 +1,19 @@
 {
-  "presets" : [
+  "presets": [
     "@babel/preset-env",
     [
-      "@babel/prest-react",
+      "@babel/preset-react",
       {
-        "runtime" : "automatic"
+        "runtime": "automatic"
       }
     ],
     "@babel/preset-typescript"
   ],
-  "plugins" : [
+  "plugins": [
     [
-      "@babel/plugin-transform-rutime",
+      "@babel/plugin-transform-runtime",
       {
-        "regeneratoe": true
+        "regenerator": true
       }
     ]
   ]
